@@ -1,0 +1,20 @@
+{
+  "name": "postit",
+  "description": "exploring microservices with micro",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/coetry/postit.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "dependencies": {
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  },
+  "author": "Allen Hai <allenhai03@gmail.com> (https://allenhai.now.sh)"
+}
